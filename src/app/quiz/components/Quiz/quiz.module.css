@@ -1,0 +1,22 @@
+.title {
+  font-size: 4rem;
+  color: #696f79;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 45rem) {
+  .title {
+    font-size: 1.9rem;
+  }
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}

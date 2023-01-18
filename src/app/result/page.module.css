@@ -2,26 +2,13 @@
   display: flex;
   height: 100%;
   flex-direction: column;
-  max-width: 30vw;
+  max-width: 40vw;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
-
-.title {
-  font-size: 3rem;
-  color: #696f79;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
 @media (max-width: 72rem) {
   .page {
     max-width: 90vw;
-  }
-}
-@media (max-width: 45rem) {
-  .title {
-    font-size: 1.9rem;
   }
 }

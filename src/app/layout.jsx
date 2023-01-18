@@ -1,14 +1,32 @@
-import './globals.css'
+import "./global.css";
+import { Poppins } from "@next/font/google";
+import classes from "./layout.module.css";
+import ContextProvider from "./components/ContextProvider/ContextProvider";
+import { Suspense } from "react";
+import Loading from "./loading";
+
+const poppins = Poppins({
+  weight: ["300", "400", "500", "700", "900"],
+  subsets: ["latin"],
+});
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html className={poppins.className}>
       <head />
-      <body>{children}</body>
+      <body className={classes.body}>
+        <header>
+          <h1 className={classes.title}>QUICK QUIZ</h1>
+        </header>
+        <Suspense fallback={<Loading />}>
+          <ContextProvider>
+            <main className={classes.main}>{children}</main>
+          </ContextProvider>
+        </Suspense>
+        <footer>
+          <h4 className={classes.footerTitle}>Designed by ID</h4>
+        </footer>
+      </body>
     </html>
-  )
+  );
 }

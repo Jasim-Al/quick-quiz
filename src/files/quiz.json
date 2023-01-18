@@ -1,0 +1,54 @@
+{
+  "quiz": [
+    {
+      "question": "Which is the biggest planet on our solar system?",
+      "answer": "jupiter",
+      "options": ["mars", "jupiter", "earth"]
+    },
+    {
+      "question": "Which among these is the nearest planet to the sun?",
+      "answer": "mercury",
+      "options": ["neptune", "mercury", "earth"]
+    },
+    {
+      "question": "Which is the farthest planet in the solar system?",
+      "answer": "neptune",
+      "options": ["neptune", "jupiter", "earth"]
+    },
+    {
+      "question": "Which planet is known as the red planet?",
+      "answer": "mars",
+      "options": ["mars", "saturn", "venus"]
+    },
+    {
+      "question": "Titan is the moon of which planet?",
+      "answer": "saturn",
+      "options": ["jupiter", "neptune", "saturn"]
+    },
+    {
+      "question": "Which planet amoung these is not in the habitable zone?",
+      "answer": "jupiter",
+      "options": ["mars", "jupiter", "earth"]
+    },
+    {
+      "question": "Which planet have the biggest moon?",
+      "answer": "jupiter",
+      "options": ["saturn", "earth", "jupiter"]
+    },
+    {
+      "question": "Which is the coldest planet on our solar system?",
+      "answer": "uranus",
+      "options": ["neptune", "uranus", "earth"]
+    },
+    {
+      "question": "Which of these planets is named after Roman god of war?",
+      "answer": "mars",
+      "options": ["mars", "saturn", "jupiter"]
+    },
+    {
+      "question": "Which is the only planet in our solar system not named after roman deity?",
+      "answer": "earth",
+      "options": ["mercury", "earth", "uranus"]
+    }
+  ]
+}

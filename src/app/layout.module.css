@@ -1,0 +1,17 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.title {
+  color: #696f79;
+}
+
+.footerTitle {
+  color: #696f79;
+  font-size: 1.6rem;
+}
